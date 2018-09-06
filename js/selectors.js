@@ -1,7 +1,17 @@
 // declare your functions here...
 
-function paragraphSelector()
-function lastImageSelector()
-function ninjaBabySelector()
-function divSelector()
-function firstListItem()
+function paragraphSelector () {
+  return $('p');
+}
+ function lastImageSelector () {
+  return $('img:last');
+}
+ function ninjaBabySelector () {
+  return $('#baby-ninja');
+}
+function divSelector () {
+  return $('.pics');
+}
+function firstListItem (argument) {
+ return $('#pic-list li:first');
+} 
